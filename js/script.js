@@ -115,7 +115,7 @@ function confirmDownload(event) {
     }
 }
 
-// To View project--------------------------
+// --------To View project--------------------------
 // ----smart cap---------------
 function confirmRedirect(url) {
     var userConfirmed = confirm("Do you want to view the project on GitHub?");
