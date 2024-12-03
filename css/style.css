@@ -272,7 +272,7 @@ ul{
     
 }
 .aside .nav-toggler.open {
-    left: 280px; 
+    left: 270px; 
 }
 
 .aside .nav-toggler.open span
@@ -826,7 +826,7 @@ padding-bottom: 0;
     }
     .aside .nav-toggler.open
     {
-        left: 280px;
+        left: 270px;
 
     }
     .main-content
