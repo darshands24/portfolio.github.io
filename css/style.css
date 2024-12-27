@@ -180,10 +180,10 @@ ul{
 /* == aside == */
 .aside
 {
-    width: 230px;
+    width: 210px;
     background: var(--bg-black-100);
     position: fixed;
-    left: -230px;
+    left: -210px;
     top: 0;
     padding: 30px;
     height: 100%;
@@ -836,7 +836,7 @@ padding-bottom: 0;
     }
     .section
     {
-        left: 230px;
+        left: 210px;
     }
     .section.open
     {
