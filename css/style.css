@@ -272,7 +272,7 @@ ul{
     
 }
 .aside .nav-toggler.open {
-    left: 270px; 
+    left: 280px; 
 }
 
 .aside .nav-toggler.open span
@@ -321,7 +321,7 @@ ul{
 }
 .aside .nav li a
 {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
     display: block;
     border-bottom: 1px solid var(--bg-black-50);
@@ -352,7 +352,7 @@ ul{
 }
 h3.hello
 {
-    font-size: 10px;
+    font-size: 28px;
     margin: 50px 0;
 }
 h3.hello span
@@ -826,7 +826,7 @@ padding-bottom: 0;
     }
     .aside .nav-toggler.open
     {
-        left: 270px;
+        left: 280px;
 
     }
     .main-content
@@ -836,7 +836,7 @@ padding-bottom: 0;
     }
     .section
     {
-        left: 220px;
+        left: 230px;
     }
     .section.open
     {
