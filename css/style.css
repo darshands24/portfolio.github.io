@@ -180,10 +180,10 @@ ul{
 /* == aside == */
 .aside
 {
-    width: 210px;
+    width: 220px;
     background: var(--bg-black-100);
     position: fixed;
-    left: -210px;
+    left: -220px;
     top: 0;
     padding: 30px;
     height: 100%;
@@ -353,7 +353,7 @@ ul{
 h3.hello
 {
     font-size: 28px;
-    margin: 15px 0;
+    margin: 50px 0;
 }
 h3.hello span
 {
@@ -836,7 +836,7 @@ padding-bottom: 0;
     }
     .section
     {
-        left: 210px;
+        left: 220px;
     }
     .section.open
     {
