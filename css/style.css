@@ -881,4 +881,14 @@ padding-bottom: 0;
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .aside {
+        width: 100%; 
+        transform: translateX(-100%); 
+    }
+    .aside.open {
+        transform: translateX(0); 
+    }
+    .aside .nav-toggler {
+        left: 10px; 
+    }
 }
