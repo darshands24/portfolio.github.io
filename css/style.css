@@ -183,7 +183,7 @@ ul{
     width: 220px;
     background: var(--bg-black-100);
     position: fixed;
-    left: -220px;
+    left: -100%;
     top: 0;
     padding: 30px;
     height: 100%;
