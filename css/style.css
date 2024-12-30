@@ -882,13 +882,20 @@ padding-bottom: 0;
         max-width: 100%;
     }
     .aside {
-        width: 100%; 
-        transform: translateX(-100%); 
+        width: 100%; /* Full width for smaller devices */
+        transform: translateX(-100%); /* Initially hidden */
+        transition: transform 0.3s ease; /* Smooth slide-in effect */
+        position: fixed; /* Ensure it overlays other content */
+        z-index: 100; /* Ensure it is above other content */
     }
     .aside.open {
-        transform: translateX(0); 
+        transform: translateX(0); /* Fully visible when open */
     }
     .aside .nav-toggler {
-        left: 10px; 
+        left: 10px; /* Adjust the nav-toggler position */
+        z-index: 101; /* Ensure it's above the aside */
+    }
+    .aside .nav-toggler.open {
+        left: 280px; /* Adjust for the open state */
     }
 }
